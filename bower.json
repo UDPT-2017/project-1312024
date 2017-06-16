@@ -1,0 +1,17 @@
+{
+  "name": "project-1312024",
+  "description": "This is a website that has soccer players information",
+  "main": "index.js",
+  "authors": [
+    "Trong-An Pham"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/UDPT-2017/project-1312024",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

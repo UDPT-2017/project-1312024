@@ -1,0 +1,19 @@
+{
+  "name": "project-1312024",
+  "version": "0.0.0",
+  "description": "This is a website that has soccer players information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UDPT-2017/project-1312024.git"
+  },
+  "author": "Trong-An Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UDPT-2017/project-1312024/issues"
+  },
+  "homepage": "https://github.com/UDPT-2017/project-1312024#readme"
+}

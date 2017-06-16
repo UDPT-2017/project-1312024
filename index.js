@@ -5,13 +5,17 @@ var exphbs = require('express-handlebars')
 app.use(express.static('public'))
 app.use('/components', express.static('bower_components'))
 
-app.engine('hbs', exphbs());
+app.engine('hbs', exphbs(
+  {extname: '.hbs'}
+));
 app.set('view engine', 'hbs');
 
-app.get('/hbs', function(req, res) {
+app.get('/', function(req, res) {
   res.render('index', {
     title: 'Home',
-    message: 'Home'
+    message: 'Home',
+    layout: 'application',
+    active: {home: true}
   })
 })
 
@@ -43,7 +47,9 @@ app.get('/players', function(req, res) {
   res.render('players', {
     title: 'Players',
     message: 'Players',
-    images: images
+    images: images,
+    layout: 'application',
+    active: {players: true}
   })
 })
 

@@ -23,10 +23,10 @@ Phần mô tả đặt vào đây
 
 ## Lập trình server
 ### MVC
-* [ ] MVC (MSSV1)
-* [ ] Config (MSSV1)
-* [ ] REST routing (MSSV1)
-* [ ] Layout & partial (MSSV1)
+* [ ] MVC
+* [ ] Config
+* [ ] REST routing
+* [x] Layout & partial
 
 ### Lập trình dữ liệu
 * [ ] Thêm (MSSV1)

@@ -15,7 +15,7 @@ Trong đề tài, sinh viên cần mô tả các chức năng có thể thực h
 Làm việc nhóm:
 * [x] Có sử dụng GIT.
 * [ ] Sử dụng GIT theo Centralized Workflow.
-* [ ] Sử dụng GIT theo Feature Branch Workflow.
+* [x] Sử dụng GIT theo Feature Branch Workflow.
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 ## Mô tả nghiệp vụ chung ứng dụng
@@ -25,7 +25,7 @@ Phần mô tả đặt vào đây
 ### MVC
 * [ ] MVC
 * [ ] Config
-* [ ] REST routing
+* [x] REST routing
 * [x] Layout & partial
 
 ### Lập trình dữ liệu
@@ -35,30 +35,30 @@ Phần mô tả đặt vào đây
 * [ ] Tìm kiếm (MSSV1)
 
 ### Xử lý lỗi
-* [ ] Xử lý lỗi trong cùng trang web (MSSV1)
-* [ ] Xử lý lỗi dùng trang web riêng (MSSV1)
-   * [ ] 401 (MSSV1)
-   * [ ] 404 (MSSV1)
-   * [ ] 500 (MSSV1)
+* [ ] Xử lý lỗi trong cùng trang web
+* [ ] Xử lý lỗi dùng trang web riêng
+   * [ ] 401
+   * [ ] 404
+   * [ ] 500
 
 ### Tương tác API khác
 Liệt kê các API nhóm đã sử dụng được ở đây
-* [ ] Facebook API: mô tả (MSSV1)
-* [ ] Google API: mô tả (MSSV1)
+* [ ] Facebook API: mô tả
+* [ ] Google API: mô tả
 * [ ] ...
 
 ## Lập trình client
-* [ ] Kiểm tra dữ liệu (MSSV1)
-* [ ] Animation (MSSV1)
-* [ ] Thao tác DOM (MSSV1)
-* [ ] AJAX (MSSV1)
+* [ ] Kiểm tra dữ liệu
+* [ ] Animation
+* [ ] Thao tác DOM
+* [ ] AJAX
 
 ## Bảo mật
-* [ ] Chứng thực (MSSV1)
-* [ ] Phân quyền sử dụng một số trang web với nhiều vai trò khác nhau (MSSV1)
+* [ ] Chứng thực
+* [ ] Phân quyền sử dụng một số trang web với nhiều vai trò khác nhau
    * [ ] Không cho phép thao tác vào trang web khi không có quyền (MSSV1)
-   * [ ] Thể hiện các chức năng khác nhau trên cùng giao diện khi người dùng có quyền khác nhau (MSSV1)
-   * [ ] Thể hiện lỗi khi không truy xuất được trang khi không có quyền (MSSV1)
+   * [ ] Thể hiện các chức năng khác nhau trên cùng giao diện khi người dùng có quyền khác nhau
+   * [ ] Thể hiện lỗi khi không truy xuất được trang khi không có quyền
 
 ## Nâng cao
 * [ ] ...

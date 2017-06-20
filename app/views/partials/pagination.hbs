@@ -1,0 +1,10 @@
+<center>
+  <form class="form-inline" action="/player">
+    {{#if showPagination}}
+      {{#each pagesCount}}
+        <button type="submit" class="btn btn-success" name="pageNo" value="{{this}}">{{this}}</button>
+      {{/each}}
+    {{/if}}
+  </form>
+
+  <center>

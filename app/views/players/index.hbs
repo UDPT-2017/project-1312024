@@ -1,12 +1,13 @@
 <div class="row">
   <form class="form-inline" action="/players">
     <div class="form-froup" align="right" style="margin-bottom:20px">
-      <input type="text" class="form-control" name="name" placeholder="Player Name" onkeypress="this.value = this.value.toLowerCase();">
+      <input type="text" class="form-control" name="name" placeholder="Player Name" value="{{searchStr}}" onkeypress="this.value = this.value.toLowerCase();">
       <button type="submit" class="btn btn-primary">
         <span class=" glyphicon glyphicon-search" style="margin-right:5px"></span>Find
       </button>
     </div>
 </div>
+
 {{#if isNoResults}}
   <div class="">
     <center>
@@ -19,3 +20,5 @@
     {{/each}}
   </div>
 {{/if}}
+
+{{> pagination}}

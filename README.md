@@ -23,8 +23,8 @@ Phần mô tả đặt vào đây
 
 ## Lập trình server
 ### MVC
-* [ ] MVC
-* [ ] Config
+* [x] MVC
+* [x] Config
 * [x] REST routing
 * [x] Layout & partial
 
@@ -32,7 +32,7 @@ Phần mô tả đặt vào đây
 * [ ] Thêm (MSSV1)
 * [ ] Xóa (MSSV1)
 * [ ] Sửa (MSSV1)
-* [ ] Tìm kiếm (MSSV1)
+* [x] Tìm kiếm (MSSV1)
 
 ### Xử lý lỗi
 * [ ] Xử lý lỗi trong cùng trang web
@@ -61,7 +61,7 @@ Liệt kê các API nhóm đã sử dụng được ở đây
    * [ ] Thể hiện lỗi khi không truy xuất được trang khi không có quyền
 
 ## Nâng cao
-* [ ] ...
+* [x] Custom dynamic pagination
 
 ## Chức năng đã thực hiện
 Các **yêu cầu chức năng** (check và ghi MSSV vào các phần chức năng đã thực hiện)

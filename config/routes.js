@@ -6,10 +6,13 @@
       .get('/', controllers.home.index);
 
     var playersRoutes = Router()
-      .get('/', controllers.players.index);
+      .get('/', controllers.players.index)
+      .get('/create', controllers.players.create)
+      .post('/create', controllers.players.created);
 
     var infoRoutes = Router()
-      .get('/:id', controllers.info.index);
+      .get('/:id', controllers.info.index)
+      .post('/:id', controllers.info.delete);
 
     app.use('/', homeRoutes);
     app.use('/players', playersRoutes);

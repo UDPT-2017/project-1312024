@@ -4,7 +4,12 @@
       <div class="thumbnail" style="margin-bottom:15px; border-style:solid; border-color:black; width:55%">
         <img src="{{image.imgurl}}" alt="" style="height:55%;width:100%">
       </div>
-    </center>
+      <form class="" action="" method="post">
+        <input type="number" name="id" hidden="" value="{{image.id}}">
+        <button type="submit" class="btn btn-danger" name="button">Delete</button>
+      </form>
+      </center>
+
   </div>
 
   <div class="col-lg-8 col-md-8 col-xs-8">
@@ -58,7 +63,7 @@
               <div class="col-lg-6 col-md-6 col-xs-6">
                 <h4 style="color:gray"><b>Main position:</b></h4></div>
               <div class="col-lg-6 col-md-6 col-xs-6">
-                <h4><b>{{image.position}}</b></h4></div>
+                <h4><b>{{image.pos}}</b></h4></div>
             </div>
           </li>
           <li class="list-group-item">
@@ -66,7 +71,7 @@
               <div class="col-lg-6 col-md-6 col-xs-6">
                 <h4 style="color:gray"><b>International caps:</b></h4></div>
               <div class="col-lg-6 col-md-6 col-xs-6">
-                <h4><b>{{image.intCaps}}</b></h4></div>
+                <h4><b>{{image.caps}}</b></h4></div>
             </div>
           </li>
           <li class="list-group-item">
@@ -74,7 +79,7 @@
               <div class="col-lg-6 col-md-6 col-xs-6">
                 <h4 style="color:gray"><b>International goals:</b></h4></div>
               <div class="col-lg-6 col-md-6 col-xs-6">
-                <h4><b>{{image.intGoals}}</b></h4></div>
+                <h4><b>{{image.goals}}</b></h4></div>
             </div>
           </li>
           <li class="list-group-item">
@@ -98,7 +103,7 @@
               <div class="col-lg-6 col-md-6 col-xs-6">
                 <h4 style="color:gray"><b>Current Club:</b></h4></div>
               <div class="col-lg-6 col-md-6 col-xs-6">
-                <h4><b>{{image.currClub}}</b></h4></div>
+                <h4><b>{{image.club}}</b></h4></div>
             </div>
           </li>
           <li class="list-group-item">
@@ -106,7 +111,7 @@
               <div class="col-lg-6 col-md-6 col-xs-6">
                 <h4 style="color:gray"><b>Number:</b></h4></div>
               <div class="col-lg-6 col-md-6 col-xs-6">
-                <h4><b>{{image.number}}</b></h4></div>
+                <h4><b>{{image.pnumber}}</b></h4></div>
             </div>
           </li>
         </ul>

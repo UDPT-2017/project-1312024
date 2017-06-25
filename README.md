@@ -1,6 +1,6 @@
-# Project - *Name of your app*
+# Project - *FutBolr Frofile*
 
-**Name of your app** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
+**FutBolr Frofile** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
 
 Thành viên:
 * [x] **1312024** - Phạm Trọng Ân - TrongAnPham - 1312024@student.hcmus.edu.vn - 100%
@@ -48,24 +48,24 @@ Liệt kê các API nhóm đã sử dụng được ở đây
 * [ ] ...
 
 ## Lập trình client
-* [ ] Kiểm tra dữ liệu
-* [ ] Animation
-* [ ] Thao tác DOM
+* [x] Kiểm tra dữ liệu
+* [x] Animation
+* [x] Thao tác DOM
 * [ ] AJAX
 
 ## Bảo mật
 * [ ] Chứng thực
 * [ ] Phân quyền sử dụng một số trang web với nhiều vai trò khác nhau
-   * [ ] Không cho phép thao tác vào trang web khi không có quyền (MSSV1)
+   * [ ] Không cho phép thao tác vào trang web khi không có quyền
    * [ ] Thể hiện các chức năng khác nhau trên cùng giao diện khi người dùng có quyền khác nhau
    * [ ] Thể hiện lỗi khi không truy xuất được trang khi không có quyền
 
 ## Nâng cao
-* [x] Custom dynamic pagination
+* [ ] ...
 
 ## Chức năng đã thực hiện
 Các **yêu cầu chức năng** (check và ghi MSSV vào các phần chức năng đã thực hiện)
-* [ ] Yêu cầu 1. (MSSV1)
+* [ ] Yêu cầu 1.
 
 
 ## Demo
